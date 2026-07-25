@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      
+      - run: ls
+
+      - run: node -v
         
       - run: npm ci
 
